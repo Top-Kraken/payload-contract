@@ -1,0 +1,31 @@
+{
+  "name": "payload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "clean": "rm -rf artifacts && rm -rf cache && rm -rf coverage && rm -rf coverage.json && rm -rf .solcover.js && rm -rf yarn.lock",
+    "compile": "npx hardhat compile",
+    "cover": "npx hardhat coverage",
+    "deploy": "npx hardhat run scripts/deploy.js --network testnet"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-etherscan": "^3.0.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.5",
+    "hardhat": "^2.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "hardhat-gas-reporter": "^1.0.4",
+    "solidity-coverage": "^0.7.16"
+  }
+}
