@@ -10,6 +10,12 @@ To install the needed packages run:
 
 `yarn` or `npm install`
 
+### Compile
+
+To compile the smart contracts run:
+
+`yarn compile` or `npm run compile`
+
 ### Build
 
 To build the smart contracts run:
@@ -34,8 +40,13 @@ There are multiple mock contracts that have been created for testing purposes. T
 
 To deploy the contracts locally run:
 
-`yarn deploy:local` or `npm run deploy:local`
+`yarn deploy` or `npm run deploy`
 
 Note that deploying the contracts locally does not require any inputs.
+
+### Verify
+
+To verify the contracts run:
+`npx hardhat verify DEPLOYED_CONTRACT_ADDRESS --network testnet`
 
 ### Design Notes
