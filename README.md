@@ -10,12 +10,6 @@ To install the needed packages run:
 
 `yarn` or `npm install`
 
-### Compile
-
-To compile the smart contracts run:
-
-`yarn compile` or `npm run compile`
-
 ### Build
 
 To build the smart contracts run:

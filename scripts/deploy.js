@@ -12,7 +12,7 @@ const main = async() => {
         Info: (await deployer.getBalance()).toString()
     };
 
-    // Creating the instance and contract for the payload
+    // Creating the instance and contract info for the payload
     let payloadContract, payloadInstance;
     payloadContract = await ethers.getContractFactory("Payload");
     payloadInstance = await payloadContract.deploy();

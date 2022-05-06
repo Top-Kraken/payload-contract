@@ -20,6 +20,10 @@ contract Payload {
     uint256 private constant defaultValueForParam5 = 3000;
     uint256 private constant defaultValueForParam6 = 3000;
 
+    constructor() {
+        
+    }
+
     function M()
         public
     {
